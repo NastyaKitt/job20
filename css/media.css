@@ -1,0 +1,356 @@
+@media (max-width:1600px) {
+    main {
+        padding: 5rem 4rem 0;
+    }
+    header {
+        width: calc(100% - 8rem);
+        padding: 1rem 4rem;
+    }
+}
+@media (max-width:1920px) {
+    .poradok {
+        & .items {
+            & .poradokItem {
+                & h2 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    
+    
+}
+@media (max-width:1024px) {
+    html {
+        font-size: 14px;
+    }
+    .price {
+        & .buttons {
+            & button {
+                height: 15rem;
+                width: 50%;
+                background-color: #fff;
+                border: 1px solid #000;
+                color: #000;
+                background-image: none;
+                padding: 1rem;
+                border-radius: 1rem;
+                display: flex
+    ;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0;
+            }
+        }
+    }
+    .price {
+        & .priceWin {
+            &.show {
+                & .purple, .white {
+                    padding: 0.5rem 2rem;
+                }
+            }
+        }
+    }
+    
+    
+    
+}
+@media (max-width:800px) {
+    main {
+        padding: 5rem 3rem 0;
+    }
+    header {
+        width: calc(100% - 6rem);
+        padding: 1rem 3rem;
+        & button {
+            font-size: 1.2rem;
+        }
+    }
+    .heroSection {
+        & h1 {
+            font-size: 2rem;
+        }
+    }
+    .heroSection {
+        & form {
+            & .top {
+                & span {
+                    & h2 {
+                        font-size: 1rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & .reviews {
+            & .revieItem {
+                &.show {
+                    & p {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .poradok {
+        & .items {
+            margin-top: 7rem;
+        }
+    }
+    .me {
+        & span {
+            & p {
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    footer {
+        padding: 2rem 2rem;
+    }
+    
+    
+    
+}
+@media (max-width:660px) {
+    header {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        & a {
+            width: 25%;
+            display: grid;
+            justify-items: center;
+        }
+    }
+}
+@media (max-width: 460px) {
+    html{
+        font-size: 10px;
+    }
+    header {
+        width: calc(100% - 1rem);
+        padding: 1rem 1rem;
+    }
+    .heroSection {
+        & form {
+            height: 17rem;
+        }
+    }
+    .price {
+        & .buttons {
+            & button {
+                & h2 {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .whyMe {
+        & h1 {
+            font-size: 2rem;
+        }
+    }
+    .me {
+        & img {
+            width: 40%;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+    }
+    .me {
+        flex-direction: column;
+        align-items: center;
+    }
+    .politicWin {
+        & .politica {
+            & h1 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .politicWin {
+        & .politica {
+            width: 80%;
+            height: 60%;
+        }
+    }
+    
+    .whyMe {
+        & .items {
+            & .item {
+                & .svg {
+                    margin-bottom: 1rem;
+                    & svg {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+    .me {
+        & span {
+            width: 100%;
+        }
+    }
+    
+    
+    .popup {
+        & form {
+            height: 30rem;
+            width: 30rem;
+            padding: 2rem;
+            color: #fff;
+            border-radius: 1rem;
+            border: #000;
+            background-image: linear-gradient(to right, #8400ff, #8f23ff, #9836ff, #a245ff, #aa53ff, #a45cff, #9e65ff, #986cff, #8171ff, #6774ff, #4777ff, #007aff);
+            display: flex
+    ;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    
+}
+@media (max-width:390px) {
+    html {
+        font-size: 9px;
+    }
+    .price {
+        & .buttons {
+            & button {
+                height: 10rem;
+                width: 100%;
+            }
+        }
+    }
+    header {
+        height: 6rem;
+        & a {
+            width: 33%;
+        }
+    }
+    .whyMe {
+        & .items {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .whyMe {
+        & .items {
+            & .item {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+    .poradok {
+        & .items {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .poradok {
+        & .items {
+            & .poradokItem {
+                width: 90%;
+                height: 10rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    main {
+        padding: 5rem 1rem 0;
+    }
+    
+    
+    
+    
+}
+@media (max-width:360px) {
+    .poradok {
+        width: 90%;
+    }
+    .whyMe {
+        width: 90%;
+    }
+    .price {
+        & .priceWin {
+            &.show {
+                & .purple, .white {
+                    height: auto;
+                    & p:first-child {
+                        max-width: 70%;
+                    }
+                }
+            }
+        }
+    }
+    .poradok {
+        & button {
+            width: 75%;
+            height: 4rem;
+        }
+    }
+    
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
+@media (max-width:1920px) {
+    
+}
